@@ -1,0 +1,8 @@
+com\letter\service\UserService.class
+com\letter\service\impl\BgmServiceImpl.class
+com\letter\service\impl\UserServiceImpl.class
+com\letter\service\TestService.class
+com\letter\service\BgmService.class
+com\letter\service\VideoService.class
+com\letter\service\impl\TestServiceImpl.class
+com\letter\service\impl\VideoServiceImpl.class

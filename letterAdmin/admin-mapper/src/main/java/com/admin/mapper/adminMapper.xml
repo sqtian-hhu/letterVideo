@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.admin.mapper.adminMapper">
+
+
+
+<!--如果网页报错Invalid bound statement (not found): mapper,target里面没有xml文件,说明没编译出来,映射不到,在pom.xml里<build>标签之间添加编译xml的代码-->
+    <!--parameterType是函数参数的类型,resultType是函数返回值的类型-->
+    <select id="findAll" resultType="com.admin.pojo.Admin">
+        select * from admin_users
+    </select>
+
+    <select id="findByName" parameterType="String" resultType="com.admin.pojo.Admin">
+        select * from admin_users where username = #{username}
+    </select>
+
+    <insert id="saveAdmin" parameterType="com.admin.pojo.Admin">
+        insert into admin_users (usertoken,username,password) values (#{usertoken},#{username},#{password})
+    </insert>
+<!--使用了tk.mybatis后以上单表操作大部分都不用自己写了-->
+
+</mapper>

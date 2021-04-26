@@ -1,0 +1,11 @@
+com\letter\dao\BgmMapper.class
+com\letter\dao\VideosMapper.class
+com\letter\dao\UsersReportMapper.class
+com\letter\dao\VideosMapperCustom.class
+com\letter\dao\CommentsMapperCustom.class
+com\letter\dao\UsersLikeVideosMapper.class
+com\letter\dao\TestDao.class
+com\letter\dao\UsersMapper.class
+com\letter\dao\CommentsMapper.class
+com\letter\dao\UsersFansMapper.class
+com\letter\dao\SearchRecordsMapper.class
